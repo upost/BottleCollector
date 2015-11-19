@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg3917"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="game elements.svg">
+  <defs
+     id="defs3919">
+    <linearGradient
+       id="linearGradient4695">
+      <stop
+         id="stop4697"
+         offset="0"
+         style="stop-color:#357821;stop-opacity:1;" />
+      <stop
+         id="stop4699"
+         offset="1"
+         style="stop-color:#aeff8f;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4683">
+      <stop
+         style="stop-color:#784421;stop-opacity:1;"
+         offset="0"
+         id="stop4685" />
+      <stop
+         style="stop-color:#f1ded1;stop-opacity:1;"
+         offset="1"
+         id="stop4687" />
+    </linearGradient>
+    <filter
+       id="filter4486"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       inkscape:menu="Non realistic 3D shaders"
+       inkscape:menu-tooltip="Non realistic frosted glass imitation"
+       inkscape:label="Frosted glass"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4488"
+         result="result8"
+         stdDeviation="7.8694759825327507" />
+      <feComposite
+         id="feComposite4490"
+         in2="result8"
+         in="result8"
+         operator="xor"
+         result="result6" />
+      <feDisplacementMap
+         id="feDisplacementMap4492"
+         in2="result6"
+         result="result4"
+         scale="75"
+         yChannelSelector="A"
+         xChannelSelector="A"
+         in="result6" />
+      <feComposite
+         id="feComposite4494"
+         in2="result4"
+         k1="2"
+         in="SourceGraphic"
+         operator="arithmetic"
+         result="result2" />
+      <feComposite
+         id="feComposite4496"
+         in2="result2"
+         operator="in"
+         in="result6"
+         result="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="filter4605"
+       inkscape:label="Enamel jewelry"
+       inkscape:menu="Materials"
+       inkscape:menu-tooltip="Slightly cracked enameled texture"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4607"
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence4609"
+         baseFrequency="0"
+         seed="477"
+         numOctaves="1"
+         result="result1"
+         type="fractalNoise" />
+      <feDisplacementMap
+         id="feDisplacementMap4611"
+         in2="result1"
+         result="result5"
+         xChannelSelector="R"
+         scale="0" />
+      <feComposite
+         id="feComposite4613"
+         in2="result5"
+         result="result2"
+         operator="in"
+         in="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting4615"
+         surfaceScale="6.651884700665164"
+         result="result4"
+         specularConstant="9.6412556053811667"
+         specularExponent="38.764317180616736"
+         lighting-color="rgb(250,246,178)"
+         in="result2">
+        <feDistantLight
+           id="feDistantLight4617"
+           elevation="113"
+           azimuth="251" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite4619"
+         in2="result2"
+         k1="5"
+         k3="0.5"
+         in="result4"
+         operator="arithmetic"
+         result="result91" />
+      <feBlend
+         id="feBlend4621"
+         in2="result91"
+         result="fbSourceGraphic"
+         mode="darken" />
+      <feGaussianBlur
+         id="feGaussianBlur4623"
+         stdDeviation="5"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feSpecularLighting
+         id="feSpecularLighting4625"
+         in="result0"
+         result="result1"
+         lighting-color="rgb(250,224,108)"
+         surfaceScale="4"
+         specularConstant="1"
+         specularExponent="20">
+        <feDistantLight
+           id="feDistantLight4627"
+           azimuth="225"
+           elevation="50" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite4629"
+         in2="fbSourceGraphic"
+         in="result1"
+         result="result2"
+         operator="in" />
+      <feComposite
+         id="feComposite4631"
+         in2="result2"
+         in="fbSourceGraphic"
+         result="result4"
+         operator="arithmetic"
+         k2="0.5"
+         k3="2" />
+      <feBlend
+         id="feBlend4633"
+         in2="result4"
+         mode="multiply" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4683"
+       id="linearGradient4689"
+       x1="92.946426"
+       y1="767.07208"
+       x2="42.15852"
+       y2="766.35779"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4695"
+       id="linearGradient4693"
+       gradientUnits="userSpaceOnUse"
+       x1="92.946426"
+       y1="767.07208"
+       x2="42.15852"
+       y2="766.35779"
+       gradientTransform="translate(134.28571,-0.71428572)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4695"
+       id="linearGradient4703"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(261.93208,-0.29274008)"
+       x1="92.946426"
+       y1="767.07208"
+       x2="42.15852"
+       y2="766.35779" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4683"
+       id="linearGradient4707"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(537.85713,-0.08196725)"
+       x1="92.946426"
+       y1="767.07208"
+       x2="42.15852"
+       y2="766.35779" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4695"
+       id="linearGradient4713"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(641.33489,-0.69086662)"
+       x1="92.441353"
+       y1="882.22949"
+       x2="47.714359"
+       y2="882.52533" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4683"
+       id="linearGradient4719"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(388.1733,-0.29274008)"
+       x1="92.946426"
+       y1="767.07208"
+       x2="42.15852"
+       y2="766.35779" />
+    <filter
+       id="filter4880"
+       inkscape:label="Diffuse light"
+       inkscape:menu="ABCs"
+       inkscape:menu-tooltip="Basic diffuse bevel to use for building textures"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4882"
+         stdDeviation="2.0787586206896549"
+         in="SourceGraphic"
+         result="result0" />
+      <feDiffuseLighting
+         id="feDiffuseLighting4884"
+         diffuseConstant="1"
+         surfaceScale="10"
+         result="result5">
+        <feDistantLight
+           id="feDistantLight4886"
+           elevation="25"
+           azimuth="235" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite4888"
+         in2="SourceGraphic"
+         k1="1"
+         in="result5"
+         result="result4"
+         operator="arithmetic"
+         k2="0"
+         k3="0.6" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.22"
+     inkscape:cx="291.44305"
+     inkscape:cy="274.72471"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
+     inkscape:window-x="1600"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="0,1"
+       position="63.214286,394.01786"
+       id="guide4679" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-38.571429,-102.85714"
+       id="guide4728" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-427.7996,56.063466"
+       id="guide4801" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3922">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:ZapfHumnst BT;-inkscape-font-specification:ZapfHumnst BT"
+       x="297.71716"
+       y="519.47021"
+       id="text4437"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4439"
+         x="297.71716"
+         y="519.47021"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Symbol;-inkscape-font-specification:Symbol">dsfgsfdg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:143.09268188px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#aad400;fill-opacity:1;stroke:none;filter:url(#filter4486);font-family:ZapfHumnst BT;-inkscape-font-specification:ZapfHumnst BT"
+       x="139.77017"
+       y="253.95065"
+       id="text4450"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.80767362,0,0,1.2381239,-56.568543,-117.1777)"
+       inkscape:export-filename="/home/uwe/Develop/workspace-android-studio/BottleCollectorAndroidProject/BottleCollectorAndroid/src/main/assets/logo.png"
+       inkscape:export-xdpi="56.540001"
+       inkscape:export-ydpi="56.540001"><tspan
+         sodipodi:role="line"
+         x="139.77017"
+         y="253.95065"
+         id="tspan4454"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#aad400;font-family:Plain Cred;-inkscape-font-specification:Plain Cred">BOTTLE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:117.59727478000000644px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#aad400;fill-opacity:1;stroke:none;filter:url(#filter4486);font-family:ZapfHumnst BT;-inkscape-font-specification:ZapfHumnst BT"
+       x="177.31458"
+       y="285.3009"
+       id="text4458"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.6428726,0,0,1.5555182,-56.568543,-137.1777)"
+       inkscape:export-filename="/home/uwe/Develop/workspace-android-studio/BottleCollectorAndroidProject/BottleCollectorAndroid/src/main/assets/logo.png"
+       inkscape:export-xdpi="56.540001"
+       inkscape:export-ydpi="56.540001"><tspan
+         sodipodi:role="line"
+         id="tspan4460"
+         x="177.31458"
+         y="285.3009"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#aad400;font-family:Plain Cred;-inkscape-font-specification:Plain Cred">COLLECTOR</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="color:#000000;fill:#d4aa00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4605);enable-background:accumulate"
+       id="path4531"
+       sodipodi:sides="17"
+       sodipodi:cx="204.28571"
+       sodipodi:cy="568.07648"
+       sodipodi:r1="138.01065"
+       sodipodi:r2="121.44937"
+       sodipodi:arg1="0.63107939"
+       sodipodi:arg2="0.81587896"
+       inkscape:flatsided="false"
+       inkscape:rounded="0.31"
+       inkscape:randomized="0"
+       d="m 315.71428,649.50505 c -5.31704,7.27596 -21.64454,0.85136 -28.20801,7.02643 -6.56346,6.17506 -1.14553,22.86364 -8.73191,27.72752 -7.58637,4.86389 -20.49048,-7.02504 -28.84142,-3.63796 -8.35093,3.38708 -9.32748,20.9059 -18.1586,22.70082 -8.83112,1.79493 -16.56907,-13.95267 -25.57964,-13.81102 -9.01057,0.14165 -16.2497,16.12469 -25.13288,14.60824 -8.88317,-1.51645 -10.4099,-18.99591 -18.86318,-22.11882 -8.45328,-3.12291 -20.9773,9.16576 -28.71282,4.54274 -7.73551,-4.62302 -2.84483,-21.47366 -9.59915,-27.43936 -6.75433,-5.9657 -22.87181,0.96894 -28.414931,-6.13629 -5.543122,-7.10523 5.104451,-21.05126 0.961291,-29.05405 -4.143157,-8.0028 -21.677345,-7.35875 -24.279447,-15.98658 -2.602103,-8.62784 12.364349,-17.78578 11.391913,-26.74484 -0.972436,-8.95907 -17.555239,-14.69258 -16.864894,-23.67779 0.690346,-8.9852 17.954376,-12.11822 20.283994,-20.82358 2.329618,-8.70537 -11.0622,-20.04211 -7.172642,-28.17118 3.889558,-8.12908 21.119566,-4.81404 26.436606,-12.09 5.31705,-7.27595 -3.07515,-22.68483 3.48832,-28.8599 6.56346,-6.17506 21.43243,3.14031 29.01881,-1.72358 7.58637,-4.86388 5.32721,-22.26385 13.67815,-25.65093 8.35094,-3.38708 18.85075,10.67054 27.68187,8.87562 8.83112,-1.79493 13.01011,-18.83601 22.02068,-18.97766 9.01057,-0.14165 13.72315,16.75965 22.60633,18.2761 8.88318,1.51645 18.93592,-12.86426 27.3892,-9.74135 8.45328,3.12291 6.74217,20.58529 14.47768,25.20831 7.73551,4.62302 22.30433,-5.15512 29.05865,0.81058 6.75432,5.9657 -1.14938,21.63076 4.39375,28.73599 5.54312,7.10523 22.66041,3.25024 26.80356,11.25304 4.14316,8.00279 -8.88569,19.75488 -6.28359,28.38271 2.6021,8.62784 19.95608,11.21665 20.92852,20.17571 0.97244,8.95907 -15.42195,15.211 -16.11229,24.1962 -0.69035,8.98521 14.55657,17.66818 12.22695,26.37355 -2.32962,8.70536 -19.87539,8.61278 -23.76494,16.74185 -3.88956,8.12907 7.19111,21.73353 1.87407,29.00948 z"
+       inkscape:transform-center-x="-0.46699835"
+       inkscape:transform-center-y="0.27037985"
+       transform="matrix(0.78286961,0,0,0.78286961,93.365547,63.110935)"
+       inkscape:export-filename="/home/uwe/Develop/workspace-android-studio/BottleCollectorAndroidProject/BottleCollectorAndroid/src/main/assets/start.png"
+       inkscape:export-xdpi="46.290001"
+       inkscape:export-ydpi="46.290001" />
+    <text
+       transform="matrix(0.44012097,0,0,1.1433646,102.65014,227.70122)"
+       sodipodi:linespacing="125%"
+       id="text4583"
+       y="285.3009"
+       x="177.31458"
+       style="font-size:117.59727478000000644px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#aad400;fill-opacity:1;stroke:none;filter:url(#filter4486);font-family:ZapfHumnst BT;-inkscape-font-specification:ZapfHumnst BT"
+       xml:space="preserve"
+       inkscape:export-filename="/home/uwe/Develop/workspace-android-studio/BottleCollectorAndroidProject/BottleCollectorAndroid/src/main/assets/start.png"
+       inkscape:export-xdpi="46.290001"
+       inkscape:export-ydpi="46.290001"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#fff6d5;font-family:Plain Cred;-inkscape-font-specification:Plain Cred"
+         y="285.3009"
+         x="177.31458"
+         id="tspan4585"
+         sodipodi:role="line">START</tspan></text>
+    <path
+       sodipodi:nodetypes="czczzczczzczsccsc"
+       inkscape:connector-curvature="0"
+       id="path4665"
+       d="m 48.571426,845.79077 c 0.913993,-34.36656 16.9633,-78.05936 22.85714,-100.57143 5.89385,-22.51207 10.287515,-46.30661 10.71429,-76 -0.0783,-1.15658 -3.578296,1.33982 -2.26015,-4.74855 1.318147,-6.08837 3.787173,-4.53956 4.199058,-6.09047 0.411884,-1.5509 -3.280964,-2.68557 -1.734501,-4.38243 -0.149965,-1.33972 7.53528,-0.5676 10.793059,-0.55104 3.257779,0.0166 10.761038,-0.91072 10.716468,0.81886 0.78236,1.16034 -2.40517,2.49845 -2.033,4.07861 0.37217,1.58016 2.69263,2.07481 3.65065,6.66586 0.95801,4.59106 -1.78507,2.87466 -1.90301,4.20912 -0.11794,27.7247 5.344,53.52547 10.71429,76 5.37029,22.47453 20.57081,66.39594 20,100.57143 -0.0723,4.3294 0,150.85713 0,150.85713 l -85.714294,0 c 0,0 -0.607154,-128.02787 0,-150.85713 z"
+       style="color:#000000;fill:url(#linearGradient4689);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095000000169;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/uwe/Develop/workspace-android-studio/BottleCollectorAndroidProject/misc/bottle1.png"
+       inkscape:export-xdpi="33.490002"
+       inkscape:export-ydpi="33.490002" />
+    <path
+       style="color:#000000;fill:url(#linearGradient4693);fill-opacity:1.0;fill-rule:nonzero;stroke:none;stroke-width:24.40800095000000169;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 182.85714,845.07648 c 0.91399,-34.36656 16.9633,-78.05936 22.85714,-100.57143 5.89385,-22.51207 10.28752,-46.30661 10.71429,-76 -0.0783,-1.15658 -3.5783,1.33982 -2.26015,-4.74855 1.31815,-6.08837 3.78717,-4.53956 4.19906,-6.09047 0.41188,-1.5509 -3.28097,-2.68557 -1.7345,-4.38243 -0.14997,-1.33972 7.53528,-0.5676 10.79306,-0.55104 3.25778,0.0166 10.76103,-0.91072 10.71646,0.81886 0.78236,1.16034 -2.40517,2.49845 -2.033,4.07861 0.37217,1.58016 2.69263,2.07481 3.65065,6.66586 0.95801,4.59106 -1.78507,2.87466 -1.90301,4.20912 -0.11794,27.7247 5.344,53.52547 10.71429,76 5.37029,22.47453 20.57081,66.39594 20,100.57143 -0.0723,4.3294 0,150.85713 0,150.85713 l -85.71429,0 c 0,0 -0.60715,-128.02787 0,-150.85713 z"
+       id="path4691"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czczzczczzczsccsc"
+       inkscape:export-filename="/home/uwe/Develop/workspace-android-studio/BottleCollectorAndroidProject/BottleCollectorAndroid/src/main/res/drawable-xhdpi/ic_launcher.png"
+       inkscape:export-xdpi="33.889999"
+       inkscape:export-ydpi="33.889999" />
+    <path
+       sodipodi:nodetypes="czczzczczzczsccsc"
+       inkscape:connector-curvature="0"
+       id="path4701"
+       d="m 310.50351,881.49803 c 0.91399,-34.36656 16.9633,-18.05936 22.85714,-40.57143 5.89385,-22.51207 10.28752,-46.30661 10.71429,-76 -0.0783,-1.15658 -3.5783,1.33982 -2.26015,-4.74855 1.31815,-6.08837 3.78717,-4.53956 4.19906,-6.09047 0.41188,-1.5509 -3.28097,-2.68557 -1.7345,-4.38243 -0.14997,-1.33972 7.53528,-0.5676 10.79306,-0.55104 3.25778,0.0166 10.76103,-0.91072 10.71646,0.81886 0.78236,1.16034 -2.40517,2.49845 -2.033,4.07861 0.37217,1.58016 2.69263,2.07481 3.65065,6.66586 0.95801,4.59106 -1.78507,2.87466 -1.90301,4.20912 -0.11794,27.7247 5.344,53.52547 10.71429,76 5.37029,22.47453 20.57081,6.39594 20,40.57143 -0.0723,4.3294 0,114.85713 0,114.85713 l -85.71429,0 c 0,0 0,-137.69446 0,-114.85713 z"
+       style="color:#000000;fill:url(#linearGradient4703);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/uwe/Develop/workspace-android-studio/BottleCollectorAndroidProject/BottleCollectorAndroid/src/main/res/drawable-xhdpi/ic_launcher.png"
+       inkscape:export-xdpi="33.889999"
+       inkscape:export-ydpi="33.889999" />
+    <path
+       style="color:#000000;fill:url(#linearGradient4707);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 586.42856,881.7088 c 0.91399,-34.36656 16.9633,-18.05936 22.85714,-40.57143 5.89385,-22.51207 10.28752,-46.30661 10.71429,-76 -0.0783,-1.15658 -3.5783,1.33982 -2.26015,-4.74855 1.31815,-6.08837 3.78717,-4.53956 4.19906,-6.09047 0.41188,-1.5509 -3.28097,-2.68557 -1.7345,-4.38243 -0.14997,-1.33972 7.53528,-0.5676 10.79306,-0.55104 3.25778,0.0166 10.76103,-0.91072 10.71646,0.81886 0.78236,1.16034 -2.40517,2.49845 -2.033,4.07861 0.37217,1.58016 2.69263,2.07481 3.65065,6.66586 0.95801,4.59106 -1.78507,2.87466 -1.90301,4.20912 -0.11794,27.7247 5.344,53.52547 10.71429,76 5.37029,22.47453 20.57081,6.39594 20,40.57143 -0.0723,4.3294 0,114.85713 0,114.85713 l -85.71429,0 c 0,0 0,-137.69446 0,-114.85713 z"
+       id="path4705"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czczzczczzczsccsc"
+       inkscape:export-filename="/home/uwe/Develop/workspace-android-studio/BottleCollectorAndroidProject/misc/bottle4.png"
+       inkscape:export-xdpi="33.490002"
+       inkscape:export-ydpi="33.490002" />
+    <path
+       style="color:#000000;fill:url(#linearGradient4713);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 689.90632,825.09991 c 0.91399,-34.36656 23.39187,-34.20222 29.28571,-56.71429 5.89385,-22.51207 3.85895,-12.16375 4.28572,-41.85714 -0.0783,-1.15658 -3.5783,1.33982 -2.26015,-4.74855 1.31815,-6.08837 3.78717,-4.53956 4.19906,-6.09047 0.41188,-1.5509 -3.28097,-2.68557 -1.7345,-4.38243 -0.14997,-1.33972 7.53528,-0.5676 10.79306,-0.55104 3.25778,0.0166 10.76103,-0.91072 10.71646,0.81886 0.78236,1.16034 -2.40517,2.49845 -2.033,4.07861 0.37217,1.58016 2.69263,2.07481 3.65065,6.66586 0.95801,4.59106 -1.78507,2.87466 -1.90301,4.20912 -0.11794,27.7247 -1.79886,19.38261 3.57143,41.85714 5.37029,22.47453 27.71367,22.5388 27.14286,56.71429 -0.0723,4.3294 0,170.85713 0,170.85713 l -85.71429,0 c 0,0 0,-193.69446 0,-170.85713 z"
+       id="path4709"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czczzczczzczsccsc"
+       inkscape:export-filename="/home/uwe/Develop/workspace-android-studio/BottleCollectorAndroidProject/misc/bottle5.png"
+       inkscape:export-xdpi="33.490002"
+       inkscape:export-ydpi="33.490002" />
+    <path
+       sodipodi:nodetypes="czczzczczzczsccsc"
+       inkscape:connector-curvature="0"
+       id="path4717"
+       d="m 436.74473,825.49803 c 0.91399,-34.36656 23.39187,-34.20222 29.28571,-56.71429 5.89385,-22.51207 3.85895,-12.16375 4.28572,-41.85714 -0.0783,-1.15658 -3.5783,1.33982 -2.26015,-4.74855 1.31815,-6.08837 3.78717,-4.53956 4.19906,-6.09047 0.41188,-1.5509 -3.28097,-2.68557 -1.7345,-4.38243 -0.14997,-1.33972 7.53528,-0.5676 10.79306,-0.55104 3.25778,0.0166 10.76103,-0.91072 10.71646,0.81886 0.78236,1.16034 -2.40517,2.49845 -2.033,4.07861 0.37217,1.58016 2.69263,2.07481 3.65065,6.66586 0.95801,4.59106 -1.78507,2.87466 -1.90301,4.20912 -0.11794,27.7247 -1.79886,19.38261 3.57143,41.85714 5.37029,22.47453 27.71367,22.5388 27.14286,56.71429 -0.0723,4.3294 0,170.85713 0,170.85713 l -85.71429,0 c 0,0 0,-193.69446 0,-170.85713 z"
+       style="color:#000000;fill:url(#linearGradient4719);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/uwe/Develop/workspace-android-studio/BottleCollectorAndroidProject/BottleCollectorAndroid/src/main/res/drawable-xhdpi/ic_launcher.png"
+       inkscape:export-xdpi="33.889999"
+       inkscape:export-ydpi="33.889999" />
+    <path
+       style="color:#000000;fill:#ffcc00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m -416.68793,813.96616 84.34774,0 0,182.83761 -84.34774,0 z"
+       id="rect4794"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4797"
+       d="m -280.82241,807.9011 21.08694,-150.03646 21.08693,0 21.08693,0 21.08694,150.03646 0,187.89252 -84.34774,0 z"
+       style="color:#000000;fill:#ffcc00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="zzzccczzzccz"
+       style="color:#000000;fill:#ffcc00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m -136.87567,808.18194 c -0.59966,-23.51548 20.3058,-74.70626 25.08694,-99.81222 4.78114,-25.10596 6.27492,-33.58099 6.54346,-42 0.26854,-8.41901 -0.72827,-8 -0.72827,-8 l 11.271736,0 11.271732,0 c 0,0 -0.996803,-0.41901 -0.728267,8 0.268536,8.41901 1.76232,16.89404 6.543465,42 4.781145,25.10596 25.181525,75.28658 25.08694,99.81222 -0.09458,24.52564 0,187.61169 0,187.61169 l -84.347736,0 c 0,0 0.59966,-164.09621 0,-187.61169 z"
+       id="path4799"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="color:#000000;fill:#445500;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4803"
+       width="409.28571"
+       height="273.57141"
+       x="-93.285713"
+       y="1154.5051"
+       ry="11.258042" />
+    <rect
+       style="color:#000000;fill:#ddff55;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4805"
+       width="304.25735"
+       height="149.73251"
+       x="-41.312935"
+       y="1195.0342"
+       ry="22.516085" />
+    <path
+       style="color:#000000;fill:#445500;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.40800095;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4880);enable-background:accumulate"
+       d="m 380.80956,1154.9404 c -6.23696,0 -11.25,5.0443 -11.25,11.2813 l 0,251.0313 c 0,6.2369 5.01304,11.2812 11.25,11.2812 l 386.78125,0 c 6.23696,0 11.25,-5.0443 11.25,-11.2812 l 0,-251.0313 c 0,-6.237 -5.01304,-11.2813 -11.25,-11.2813 z m 63.25,40.5313 259.21875,0 c 12.47391,0 22.5,10.0573 22.5,22.5313 l 0,104.6874 c 0,12.474 -18.02609,22.5313 -30.5,22.5313 0,0 3.74486,-103.362 -125.1808,-103.5714 -118.20014,-0.1921 -118.03795,103.5714 -118.03795,103.5714 -12.47391,0 -30.53125,-10.0573 -30.53125,-22.5313 l 0,-104.6874 c 0,-12.474 10.05734,-22.5313 22.53125,-22.5313 z"
+       id="rect4807"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssssssssssssssss"
+       inkscape:export-filename="/home/uwe/Develop/workspace-android-studio/BottleCollectorAndroidProject/BottleCollectorAndroid/src/main/assets/beercrate.png"
+       inkscape:export-xdpi="23.459999"
+       inkscape:export-ydpi="23.459999" />
+    <g
+       transform="matrix(0.95740306,0,0,1.3350034,296.88459,1024.9557)"
+       style="font-size:117.59727478px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#aad400;fill-opacity:1;stroke:none;filter:url(#filter4486);font-family:ZapfHumnst BT;-inkscape-font-specification:ZapfHumnst BT"
+       id="text4894">
+      <path
+         d="M 222.125 191.34375 C 208.9384 192.73067 196.61316 198.30332 183.4375 199.75 C 181.63619 200.78556 182.59416 203.12494 182.28175 204.79215 C 182.32915 231.59058 182.36 258.38903 182.375 285.1875 C 195.9439 284.94076 209.79046 286.27237 223.0625 282.71875 C 231.69899 280.32136 239.30574 273.20452 240.95734 264.21192 C 242.30751 255.87529 238.82153 247.27665 232.96875 241.375 C 231.73816 238.87049 234.20124 236.74665 234.94108 234.51577 C 239.25666 224.35395 239.89298 212.82401 237.55423 202.09607 C 236.23964 197.3739 232.8162 192.72796 227.75 191.78125 C 225.92529 191.31851 223.99823 191.27305 222.125 191.34375 z M 217.96875 206.90625 C 222.53011 207.28527 225.41381 212.22423 225.03125 216.5 C 224.85173 224.23916 219.00808 231.61192 211.31225 233.06129 C 209.60387 233.53648 207.86084 233.86341 206.125 234.21875 C 204.43976 238.02754 206.22589 242.18098 205.63398 246.13577 C 205.71272 247.50733 205.56731 248.88076 205.6875 250.25 C 211.05414 251.14624 217.0035 250.0811 221.79793 253.20293 C 225.02499 254.94948 227.83715 258.76756 226.6875 262.5625 C 225.1885 267.12758 220.23634 269.48144 215.71493 269.77287 C 209.90113 270.72149 203.98994 270.47764 198.125 270.40625 C 196.14107 267.36755 197.55737 263.62205 197.09126 260.26491 C 197.06098 244.1737 196.79149 228.08313 196.28125 212 C 203.45073 210.10457 210.41149 206.8043 217.96875 206.90625 z "
+         style="font-family:Plain Cred;-inkscape-font-specification:Plain Cred"
+         id="path4917" />
+      <path
+         d="M 250.46875 180.3125 C 250.66667 215.3125 250.86458 250.3125 251.0625 285.3125 C 263.64583 285.3125 276.22917 285.3125 288.8125 285.3125 C 288.8125 280.40625 288.8125 275.5 288.8125 270.59375 C 281.125 270.59375 273.4375 270.59375 265.75 270.59375 C 265.71875 263.23958 265.6875 255.88542 265.65625 248.53125 C 272.11458 248.8125 278.57292 249.09375 285.03125 249.375 C 284.9375 242.61458 284.84375 235.85417 284.75 229.09375 C 278.03125 228.02083 271.3125 226.94792 264.59375 225.875 C 264.63542 214.20833 264.67708 202.54167 264.71875 190.875 C 272.875 191.08333 281.03125 191.29167 289.1875 191.5 C 289.52083 186.38542 289.85417 181.27083 290.1875 176.15625 C 276.94792 177.54167 263.70833 178.92708 250.46875 180.3125 z "
+         style="font-family:Plain Cred;-inkscape-font-specification:Plain Cred"
+         id="path4919" />
+      <path
+         d="M 297.4375 285.3125 C 310.02083 285.3125 322.60417 285.3125 335.1875 285.3125 C 335.1875 280.40625 335.1875 275.5 335.1875 270.59375 C 327.51042 270.59375 319.83333 270.59375 312.15625 270.59375 C 312.15625 263.64583 312.15625 256.69792 312.15625 249.75 C 318.58333 249.72917 325.01042 249.70833 331.4375 249.6875 C 331.4375 243.88542 331.4375 238.08333 331.4375 232.28125 C 325.01042 232.30208 318.58333 232.32292 312.15625 232.34375 C 312.38542 220.04167 312.61458 207.73958 312.84375 195.4375 C 320.34375 196.60417 327.84375 197.77083 335.34375 198.9375 C 335.40625 193.0625 335.46875 187.1875 335.53125 181.3125 C 323.39583 179.71875 311.26042 178.125 299.125 176.53125 C 298.5625 212.79167 298 249.05208 297.4375 285.3125 z "
+         style="font-family:Plain Cred;-inkscape-font-specification:Plain Cred"
+         id="path4921" />
+      <path
+         d="M 344.25 183.65625 C 343.4453 190.21396 344.28084 196.82488 343.87256 203.40224 C 343.79004 230.70566 343.70752 258.00908 343.625 285.3125 C 348.52083 285.3125 353.41667 285.3125 358.3125 285.3125 C 358.36458 258.45833 358.41667 231.60417 358.46875 204.75 C 367.29309 207.90843 376.9446 209.68614 384.46425 215.63907 C 391.05963 221.11277 393.67911 231.46943 389.2228 239.04312 C 385.78536 244.7689 378.69618 247.2643 372.265 246.86549 C 368.27193 246.71721 363.61837 246.93262 360.78125 250.15625 C 358.48106 253.97235 360.34365 259.02242 363.67622 261.5837 C 371.38832 269.37871 379.10041 277.17373 386.8125 284.96875 C 392.20446 285.74831 397.66065 285.04141 403.08028 285.3125 C 405.01185 285.3125 406.94343 285.3125 408.875 285.3125 C 400.375 276.80208 391.875 268.29167 383.375 259.78125 C 394.72422 257.31421 404.57144 247.80317 406.30857 236.15313 C 408.19703 224.83961 403.20545 213.08314 394.79362 205.53065 C 385.8531 196.99478 374.13633 192.28734 362.5683 188.49152 C 356.61509 186.43098 350.52199 184.76298 344.34375 183.53125 L 344.25 183.65625 z "
+         style="font-family:Plain Cred;-inkscape-font-specification:Plain Cred"
+         id="path4923" />
+    </g>
+  </g>
+</svg>
