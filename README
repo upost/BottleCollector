@@ -1,0 +1,11 @@
+BottleCollector
+
+This is a simple 2D game demo.
+
+The game uses the libgdx multi platform graphics library.
+
+The project contains subprojects for Android, Desktop and GWT. Only the Android version is currently tested.
+
+Explained in my german book "Spieleprogrammierung mit Android Studio":
+
+https://www.rheinwerk-verlag.de/spieleprogrammierung-mit-android-studio_3537/
