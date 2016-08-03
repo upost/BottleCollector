@@ -1,8 +1,11 @@
+apply plugin: "com.android.application"
+
 android {
-    buildToolsVersion "22.0.1"
+    buildToolsVersion "23.0.2"
     compileSdkVersion 22
     sourceSets {
         main {
+            jniLibs.srcDirs = ['lib']
             manifest.srcFile 'src/main/AndroidManifest.xml'
             java.srcDirs = ['src/main/java']
             aidl.srcDirs = ['src/main/java']
@@ -13,28 +16,39 @@ android {
 
         instrumentTest.setRoot('tests')
     }
+
 }
 
-// needed to add JNI shared libraries to APK when compiling on CLI
-tasks.withType(com.android.build.gradle.tasks.PackageApplication) { pkgTask ->
-    pkgTask.jniFolders = new HashSet<File>()
-    pkgTask.jniFolders.add(new File(projectDir, 'libs'))
+
+
+configurations { natives }
+
+dependencies {
+    compile project(":bottlecollector-core")
+    compile "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
+    natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi"
+    natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi-v7a"
+    natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86"
+    compile "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+    natives "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-armeabi"
+    natives "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-armeabi-v7a"
+    natives "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-x86"
 }
 
 // called every time gradle gets executed, takes the native dependencies of
 // the natives configuration, and extracts them to the proper libs/ folders
 // so they get packed with the APK.
 task copyAndroidNatives() {
-    file("libs/armeabi/").mkdirs();
-    file("libs/armeabi-v7a/").mkdirs();
-    file("libs/x86/").mkdirs();
+    file("lib/armeabi/").mkdirs();
+    file("lib/armeabi-v7a/").mkdirs();
+    file("lib/x86/").mkdirs();
 
     configurations.natives.files.each { jar ->
         def outputDir = null
-        if(jar.name.endsWith("natives-armeabi-v7a.jar")) outputDir = file("libs/armeabi-v7a")
-        if(jar.name.endsWith("natives-armeabi.jar")) outputDir = file("libs/armeabi")
-        if(jar.name.endsWith("natives-x86.jar")) outputDir = file("libs/x86")
-        if(outputDir != null) {
+        if (jar.name.endsWith("natives-armeabi-v7a.jar")) outputDir = file("lib/armeabi-v7a")
+        if (jar.name.endsWith("natives-armeabi.jar")) outputDir = file("lib/armeabi")
+        if (jar.name.endsWith("natives-x86.jar")) outputDir = file("lib/x86")
+        if (outputDir != null) {
             copy {
                 from zipTree(jar)
                 into outputDir

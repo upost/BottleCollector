@@ -4,7 +4,7 @@ This is a simple 2D game demo.
 
 The game uses the libgdx multi platform graphics library.
 
-The project contains subprojects for Android, Desktop and GWT. Only the Android version is currently tested.
+The project contains sub projects for Android, Desktop and GWT. Only the Android version is currently tested.
 
 Explained in my german book "Spieleprogrammierung mit Android Studio":
 

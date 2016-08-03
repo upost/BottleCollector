@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bottlecollector-core.bottlecollector-core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bottlecollector-core/build/libs/bottlecollector-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
