@@ -27,11 +27,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="gdx-box2d-1.9.8" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="gdx-1.9.8" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="gdx-box2d-1.9.8" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="gdx-1.9.8" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="gdx-box2d-1.9.8" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="gdx-1.9.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gdx-box2d-1.9.8" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gdx-1.9.8" level="project" />
   </component>
 </module>
